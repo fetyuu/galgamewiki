@@ -1,0 +1,208 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* 版心 */
+.background {
+    background: #def0fe;
+    position: relative;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #1645c8;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+/* 选择所有的偶数的小li */
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+
+/* header 头部制作 */
+.header {
+    position: relative;
+    height: 105px;
+    background-color: #82b8ea;
+    width: 1450px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    /* font-size: 0;京东的做法*/
+    /* 淘宝的做法让文字隐藏 */
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    left: 500px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #84a5d6;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #4f8ec9;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 530px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #c73a8c;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+.container {
+    float: left;
+    background-color: #e8eff0;
+    height: 600px;
+    font-size: 15px;
+}
+
+
+.num>span {
+    color: rgb(224, 235, 249);
+}
+
+.boil {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-style: 0.85em;
+    padding: 1px 2px 1px 2px;
+}
+
+.hot {
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    font-style: 0.85em;
+    padding: 1px 2px 1px 2px;
+}
+
+.new {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-style: 0.85em;
+    padding: 1px 2px 1px 2px;
+}
+
+.game {
+    float: left;
+    width: 200px;
+    background: #e8e2f1;
+    margin-left: 70px;
+}
+
+.ulheader {
+
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.talk {
+    background-color: #10b6e8;
+    width: 1450px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.share {
+    background-color: #b1ecea;
+    width: 1450px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.am {
+    background-color: #10b6e8;
+    width: 1450px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.more {
+    background-color: #b1ecea;
+    width: 1450px;
+    font-size: 25px;
+    text-align: center;
+}
